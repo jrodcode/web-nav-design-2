@@ -15,7 +15,7 @@
     background-color: #fff;
     box-shadow: 0px 3px 20px 0px #00000029;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     z-index: 99;
     top: 0;
@@ -27,8 +27,9 @@
 }
 
 .nav-with-logo>a {
-    width: 100%;
-    text-align: center;
+    width: 20%;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .nav-with-logo>a>img {
@@ -41,10 +42,9 @@
 
 .side-nav-btn-container {
     position: absolute;
-    right: 0;
-    top: 50%;
+    right: 20px;
+    top: 27px;
     z-index: 999;
-    box-shadow: 0px 5px 20px 2px #00000040;
 }
 
 .side-nav-btn {
